@@ -1,0 +1,22 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Curso-asincronismo-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Misael-GC/asincronismo-js.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "misael gomez cuautle misael.gomez1623@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Misael-GC/asincronismo-js/issues"
+  },
+  "homepage": "https://github.com/Misael-GC/asincronismo-js#readme"
+}
