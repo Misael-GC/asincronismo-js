@@ -18,8 +18,8 @@ function postData(urlApi, data) {
 //nuestra data que vamos a meter
 const data = {
     "title": "Never Stop Learning",
-    "price": 4000,
-    "description": "PLatzi Duo",
+    "price": 1000,
+    "description": "PLatzi Basic",
     "categoryId": 1,
     "images": ["https://placeimg.com/640/480/any"]
   };
@@ -29,3 +29,7 @@ const data = {
 postData(`${API}products`, data)
   .then(response => response.json())
   .then(data => console.log(data));
+
+
+  //PUT Actualizar -> archivo challenge-put.js
+  
