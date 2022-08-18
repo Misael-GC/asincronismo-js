@@ -9,6 +9,7 @@ async function fetchData(urlApi){
 
 const anotherFunction = async (urlApi) =>{
     try{
+        //mE DOY CUENTA QUE CONECTAN ENTRE SI EN LAS URL, ASÍ ES COMO SE PASAN LA INFORMACIÓN
         const products = await fetchData(`${urlApi}/products`);
         const product = await fetchData(`${urlApi}/products/${products[0].id}`);
         const category = await fetchData(`${urlApi}/categories/${product.category.id}`);
